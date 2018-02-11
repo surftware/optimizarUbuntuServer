@@ -1,0 +1,11 @@
+git add -A #añade todos los archivos del proyecto
+git status #muestra los archios añadidos
+git commit -m "mensaje" #añade los cambios en una instantánea
+git log   #muestra la lista de cambios hechos con los commit
+git check out "código sha"#te regresa a esa instantánea o commit
+
+git reset --soft #elimina todos los commits pero sin meterse con el código"
+git reset --hard #borra todo es muy peligroso
+
+
+git help "comando"

@@ -1,0 +1,14 @@
+
+[Archivos]
+   comment = Archivos
+   path = /media/Archivos
+   browseable = yes
+   read only = no
+   guest ok = yes
+
+[software]
+   comment = software de Windows y GNU
+   path = /media/software
+   browseable = yes
+   read only = no
+   guest ok = yes
