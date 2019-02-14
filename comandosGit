@@ -34,12 +34,19 @@ git merge "rama" #fusiona una rama en la rama actual por ejemplo hacia máster
 
 git help "comando"
 
+/*----------------Comandos para repositorios remotos-------------------------*/
+
 git clone and@eva:/media/Archivos/proyectos/surftware/web/desarrollo/vmyasc.com.mx
 
 git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
 
 git push -u origin master #Reemplaza master por la rama a la que quieres enviar tus cambios.
 
+
+
+
+
+/*----------------Comandos solución de estados inconsistentes----------------------*/
 
 git stash #Hace un guardado rápido  en una pila provisional, hasta que descarguemos
             los cambios, limpia el área de trabajo para posteriormente poder subir nuestros cambios
@@ -49,3 +56,23 @@ git stash list #muestra los cambios guardados en esa pila
 
 git stash apply #aplica el último cambio guardado en la pila
 git stash apply stash@{2} #aplica un estado explícito guardado antes
+
+git push  -u --force origin master  #Precaucion no usar cuando alguien más esté escribiendo código
+                                    #usar solo al estar completamente seguro de que al hacer push no borrarás nada
+
+git push origin master --force
+
+
+git add -i # Añadir archivos de forma interactiva
+
+
+
+
+
+
+
+
+
+
+
+qswqwqwefWGTFREGTERGRHGFBSFGJHFJF              
