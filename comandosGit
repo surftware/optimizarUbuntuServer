@@ -40,7 +40,10 @@ git clone and@eva:/media/Archivos/proyectos/surftware/web/desarrollo/vmyasc.com.
 
 git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
 
-git push -u origin master #Reemplaza master por la rama a la que quieres enviar tus cambios.
+git push origin master #Reemplaza master por la rama a la que quieres enviar tus cambios.
+
+#branch remoto, en general, estos suelen crearse cuando el trabajo que se
+realiza suele durar más de un día o cuando dos personas trabajan en lo mismo.
 
 
 
@@ -64,15 +67,3 @@ git push origin master --force
 
 
 git add -i # Añadir archivos de forma interactiva
-
-
-
-
-
-
-
-
-
-
-
-qswqwqwefWGTFREGTERGRHGFBSFGJHFJF              
