@@ -1,0 +1,5 @@
+#//servername/sharename  /media/mountname  smbfs  guest,uid=1000,iocharset=utf8,codepage=unicode,unicode  0  0
+
+//192.168.2.253/Archivos /media/Archivos cifs guest,noexec,user,rw,nounix,uid=1000,iocharset=utf8 0 0
+//192.168.2.253/software /media/software cifs guest,noexec,user,rw,nounix,uid=1000,iocharset=utf8 0 0
+

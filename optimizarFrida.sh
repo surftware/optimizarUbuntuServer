@@ -9,8 +9,6 @@
 
 
 sudo  mkdir /media/Archivos
-sudo  mkdir /media/software
-
 
 #montar particiones principales "Archivos y software" permanentemente
 #las carpetas pueden llamarse como sea
@@ -37,9 +35,10 @@ sudo /bin/hostname eva
 apt-get install xubuntu-desktop
 
 sudo apt-get remove xscreensaver
-sudo apt-get remove network-manager
+#sudo apt-get remove network-manager
 
 
+apt-get install gdebi
 apt-get install shutter
 apt-get install inkscape
 apt-get install photorec
@@ -50,7 +49,8 @@ apt-get install nmap
 apt-get install vokoscreen
 apt-get install vlc
 apt-get install winff
-apt-get install comix
+apt-get install gedit
+#apt-get install comix
 
 
 

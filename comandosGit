@@ -1,11 +1,51 @@
+git config --global user.name "Armando Arciniega"
+git config --global user.email "armando@webdecero.com"
+
+
+
+git init #solo se usa una vez para inicar git en el proyecto
+
+
+/*
+Existen 3 estados de trabajo
+*Modificado
+*Consolidado(commited)
+*Escenario(staged)
+
+
+
+*/
+
+
 git add -A #añade todos los archivos del proyecto
 git status #muestra los archios añadidos
-git commit -m "mensaje" #añade los cambios en una instantánea
 git log   #muestra la lista de cambios hechos con los commit
 git check out "código sha"#te regresa a esa instantánea o commit
+git commit -m "mensaje" #añade los cambios en una instantánea
 
 git reset --soft #elimina todos los commits pero sin meterse con el código"
 git reset --hard #borra todo es muy peligroso
 
 
+git branch "nuevaRama" #crea una rama alterna del proyecto dentro del proyecto master
+git checkout "cambiarRama" #te cambia de rama
+git check out "código sha"#te regresa a esa instantánea o commit
+git merge "rama" #fusiona una rama en la rama actual por ejemplo hacia máster
+
 git help "comando"
+
+git clone and@eva:/media/Archivos/proyectos/surftware/web/desarrollo/vmyasc.com.mx
+
+git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+
+git push -u origin master #Reemplaza master por la rama a la que quieres enviar tus cambios.
+
+
+git stash #Hace un guardado rápido  en una pila provisional, hasta que descarguemos
+            los cambios, limpia el área de trabajo para posteriormente poder subir nuestros cambios
+
+
+git stash list #muestra los cambios guardados en esa pila
+
+git stash apply #aplica el último cambio guardado en la pila
+git stash apply stash@{2} #aplica un estado explícito guardado antes

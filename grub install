@@ -1,0 +1,3 @@
+fdisk -l
+mount /dev/sdaX /mnt
+grub-install --root-directory=/mnt /dev/sda
