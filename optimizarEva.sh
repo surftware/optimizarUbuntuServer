@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 #Escrito por:Armando Arciniega Solano
@@ -27,6 +28,8 @@ apt-get install -y vlc
 apt-get install -y winff
 apt-get install -y remmina
 apt-get install -y gedit
+apt-get install -y chromium-browser
+
 
 
 
@@ -45,5 +48,3 @@ dpkg -i /media/software/gnu/atom.deb
 dpkg -i /media/software/gnu/team.deb
 dpkg -i /media/software/gnu/opera.deb
 dpkg -i /media/software/gnu/wps.deb
-
-

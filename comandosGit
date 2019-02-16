@@ -67,3 +67,20 @@ git push origin master --force
 
 
 git add -i # Añadir archivos de forma interactiva
+
+git checkout -- ruta/archivo.ext elimina un archivo del stage ates de hacer commit
+
+
+
+
+
+/*---------------------Miscelaneos--------------*/
+
+find . -name "*.php" -exec git checkout -- {} \;
+Explicación
+
+find: Utilidad que recorre de manera recursiva un arbol de directorios dado, evaluando una expresión dada en este caso (-name "*.php").
+Punto (.): Representa el directorio actual dentro de la jerarquía de directorios unix/Linux.
+-name: Parámetro que indica un patrón de búsqueda, utilizando el nombre del archivo.
+-exec: Llama una utilidad externa (en este caso git) y le envía uno por uno el resultado de la búsqueda (el path de cada archivo que hizo match con la expresión dada en -name) utilizando {}.
+\; : expresión que finaliza la llamada la utilidad externa.

@@ -11,8 +11,6 @@
 #sudo mount -t cifs //192.168.2.253/software /media/software -o rw
 #montar carpetas remotas desde consola y poderlas usar con gdebi
 
-
-
 apt-get install -y gdebi
 apt-get install -y shutter
 apt-get install -y inkscape
@@ -26,6 +24,8 @@ apt-get install -y vokoscreen
 apt-get install -y vlc
 apt-get install -y winff
 apt-get install -y remmina
+apt-get install -y gedit
+apt-get install -y chromium-browser
 
 
 
@@ -50,6 +50,3 @@ dpkg -i /media/software/gnu/wps.deb
 
 cat  /media/software/gnu/scripts/fstabCliente >> /etc/fstab
 apt-get --fix-broken install -y
-
-
-
