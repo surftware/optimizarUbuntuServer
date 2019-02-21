@@ -24,5 +24,8 @@ sudo su
 cd /media/software/gnu
 ./xampp.run
 
-
+#icono de acceso al panel de configruacion gráfico de xampp
 cat  /media/software/gnu/scripts/xampp-control-panel.desktop >> /usr/share/applications/xampp-control-panel.desktop
+
+
+#/opt/lampp/lampp o /opt/lampp/xampp para ingresar comandos de xampp

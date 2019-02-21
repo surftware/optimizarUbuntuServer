@@ -18,6 +18,7 @@ Existen 3 estados de trabajo
 
 
 git add -A #añade todos los archivos del proyecto
+git diff
 git status #muestra los archios añadidos
 git log   #muestra la lista de cambios hechos con los commit
 git check out "código sha"#te regresa a esa instantánea o commit
